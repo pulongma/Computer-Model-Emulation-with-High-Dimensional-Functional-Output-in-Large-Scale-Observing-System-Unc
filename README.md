@@ -1,4 +1,4 @@
-# Computer Model Emulation with High-Dimensional Functional Output in Large-Scale Observing System Uncertainy Experiments
+# Computer Model Emulation with High-Dimensional Functional Output in Large-Scale Observing System Uncertainty Experiments
  
 
 # General description
