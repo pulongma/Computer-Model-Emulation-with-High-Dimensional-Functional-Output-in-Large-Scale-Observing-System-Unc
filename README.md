@@ -36,11 +36,11 @@ The data from the full-physics forward model can be downloaded at the NASA Godda
 3. The NNGP emulator is provided as a general form that implements the independent emulator
  for all the bands, and separable emulator for the WCO2 and SCO2. 
 4. For O2 band, we peform independent emulation with three different files: 
- * O21_AS_nugget_IndEmulation.m. This file contains the emulation code for the 
+  * O21_AS_nugget_IndEmulation.m. This file contains the emulation code for the 
  first FPC score for the O2 band.
- * O22_AS_nugget_IndEmulation.m. This file contains the emulation code for the 
+  * O22_AS_nugget_IndEmulation.m. This file contains the emulation code for the 
  second FPC score for the O2 band.   
- * O23_AS_nugget_IndEmulation.m. This file contains the emulation code for the 
+  * O23_AS_nugget_IndEmulation.m. This file contains the emulation code for the 
  third FPC score for the O2 band.
 5. For the WCO2 and SCO2 bands, we can use independent emulator and separable emulator.
  For independent emulator, the corresponding files are WCO2_AS_nugget_IndEmulation.m
