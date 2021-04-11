@@ -2,11 +2,11 @@
 https://doi.org/10.1080/00401706.2021.1895890 
 
 # General description
- This routine shows the entire pipelines to implement the NNGP-based emulator
+ This file shows the entire pipelines to implement the NNGP-based emulator
  in combination with the active subspace approach for dimension reduction. 
  The details of the methods can be found in the paper titled "Computer Model
  Emulation with High-Dimensional Functional Output in Large-Scale Observing
- System Uncertainty Experiments" by the authors.
+ System Uncertainty Experiments" by  Ma et al. Technometrics (2021) (DOI:10.1080/00401706.2021.1895890).
 
 # Instructions for the overall picture 
 The entire codes have three parts.
