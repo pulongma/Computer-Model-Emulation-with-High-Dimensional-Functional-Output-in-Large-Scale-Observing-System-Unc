@@ -6,7 +6,7 @@
  in combination with the active subspace approach for dimension reduction. 
  The details of the methods can be found in the paper titled "Computer Model
  Emulation with High-Dimensional Functional Output in Large-Scale Observing
- System Uncertainty Experiments" by  Ma et al. Technometrics (2021) (https://doi.org/10.1080/00401706.2021.1895890).
+ System Uncertainty Experiments" by  Ma et al. Technometrics (2021) [DOI:10.1080/00401706.2021.1895890](https://doi.org/10.1080/00401706.2021.1895890).
 
 # Instructions for the overall picture 
 The entire codes have three parts.
@@ -50,3 +50,5 @@ The data from the full-physics forward model can be downloaded at the NASA Godda
 # What you can expect from the code?
  The results for NNGP emulators in Table 2 and Table 3 can be reproduced with the code along with Figures 3 to 6. 
 
+# Bug Fixes 
+We noted an implementation error for the routine named <code>CRPS.R</code> in the submitted Supplementary Files that accompany the published paper in Techonmetrics at https://doi.org/10.1080/00401706.2021.1895890. This version of code has fixed this code bug. It should be noted that CRPS is just one metric among RMSPE, PCI(95%), CRPS to evaluate predictive performance. Thus the conculsions drawn from these numerical metrics still hold and do not affect the validity of ideas in the paper.
