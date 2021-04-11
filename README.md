@@ -2,7 +2,7 @@
  
 
 # General description
- This file shows the entire pipelines to implement the NNGP-based emulator
+ This repo shows the entire pipelines to implement the NNGP-based emulator
  in combination with the active subspace approach for dimension reduction. 
  The details of the methods can be found in the paper titled "Computer Model
  Emulation with High-Dimensional Functional Output in Large-Scale Observing
@@ -25,7 +25,7 @@ The entire codes have three parts.
 
 # Note on the data
 The data from the full-physics forward model can be downloaded at the NASA Goddard Earth Science Data and Information Services Center (GES DISC https://disc.gsfc.nasa.gov/datasets?page=1\&keywords=OCO-2). 
- The dataset for the reduced order model
+
 
 # Note on the code
 1. We only provide the code to perform FPCA, active subspace, and NNGP emulation.  
